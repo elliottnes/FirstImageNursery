@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Rakkas|Roboto:100,300,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet-->
+  <link rel="stylesheet" type="text/css" href="CSS/custom.css">
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>First Image Nursery</title>
+
+  <style>
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 400px;
+      /* The height is 400 pixels */
+      width: 100%;
+      /* The width is the width of the web page */
+    }
+  </style>
+
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Nav bar -->
+  <div class="container-fluid">
+    <div class="row">
+      <p class="col-sm text-right">
+        <a href="index.html" class="link">HOME</a> //
+        <a href="about.html" class="link">ABOUT</a> //
+        <a href="inventory.html" class="link">INVENTORY</a> //
+        <a href="quote.html" class="link">QUOTE</a> //
+        <a href="visit.html" class="link">VISIT</a>
+      </p>
+      <div class="col-1">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Left Column -->
+
+  <div class="container">
+    <div class="form-row">
+      <div class="col-md-6">
+
+        <h1 class="title">Contact Us</h1>
+
+        <form class="content">
+          <input type="text" id="fname" name="name" placeholder="NAME" />
+          <input type="text" id="email" name="email" placeholder="EMAIL" />
+          <input type="text" id="phone" name="phone" placeholder="PHONE" />
+          <input type="text" id="subjct" name="subject" placeholder="SUBJECT" />
+          <textarea type="text" id="message" name="message" placeholder="MESSAGE"></textarea>
+        </form>
+
+        <div>
+          <a><button class="button button1" style="float: right">SUBMIT</button></a>
+          </a>
+
+        </div>
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <h1 class="title">Map</h1>
+
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13226.015814930694!2d-118.3710322!3d34.0309417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31f8db314d19940c!2sFirst%20Image%20Nursery!5e0!3m2!1sen!2sus!4v1577048041010!5m2!1sen!2sus"
+          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="false" class="content"></iframe>
+        <!-- Insert Map here in container -->
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- Footer -->
+  <div class="container-fluid footer">
+    <div>
+      <div class="row">
+        <div class="col-5 text-right footer-content">
+
+          <h4>Visit us today</h4>
+          <p> First Image Nursery LLC.<br>
+            <a class="footlink" href="https://www.google.com/maps/dir//34.0309417,-118.3710322/@34.030942,-118.371032,14z?hl=en">2700 S Fairfax Ave.
+              <br>Los Angeles, CA 90016</a>
+            <br><br>P: 323.964.9632.
+            <br>F: 323.964.9638</p>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col-6 footer-content">
+          <div class="row">
+
+            <div class="col-md-4">
+              <h4>
+                <a href="instagram.com" class="link">Instagram <i class="fa fa-instagram" style="font-size:22px;color:#7d8e51"></i></a>
+              </h4>
+            </div>
+            <div class="col-md-4 ">
+              <h4>
+                <a href="yelp.com" class="link">Yelp <i class="fa fa-yelp" style="font-size:22px;color:#7d8e51"></i></a>
+              </h4>
+            </div>
+            <div class="col-12">
+              <h6><br />Subscribe for upcoming sales and news:</h6>
+            </div>
+
+          </div>
+
+
+          <!-- Email field -->
+          <div>
+            <form>
+              <input type="text" id="email" name="email" placeholder="EMAIL" />
+            </form>
+          </div>
+
+          <!-- Submit Button -->
+          <div>
+            <a><button class="button buttonfoot">Submit</button></a>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="container">
+      <div class="row">
+        <p class="col text-right copyright">©2020 First Image Nursery LLC.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

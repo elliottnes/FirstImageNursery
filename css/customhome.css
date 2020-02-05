@@ -1,0 +1,149 @@
+h1 {
+  font-family: Rakkas;
+  cursive;
+  font-size: 80px;
+}
+
+p {
+  font-family: Roboto;
+  serif;
+}
+
+p.light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: Rakkas;
+  cursive;
+  font-size: 22px
+}
+
+.content {
+  margin-top: 80px
+}
+
+/*Footer Section*/
+.footer-content {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #f0f0db;
+  color: #7d8e51
+}
+
+.footercolor {
+  background-color: #f0f0db;
+  color: #7d8e51
+}
+
+.buttonfoot {
+  background-color: #7d8e51;
+  color: white;
+  border: 2px solid #7d8e51;
+}
+
+.buttonfoot:hover {
+  background-color: white;
+  color: #7d8e51;
+  border: 2px solid #7d8e51;
+}
+
+.buttonfoot:focus {
+  outline-color: #c5d671
+}
+
+.copyright {
+  color: black;
+  font-family: Roboto;
+  font-size: 9px
+}
+
+.footlink {
+  color: #7d8e51;
+  text-decoration: underline;
+}
+
+.footlink:hover {
+  color: #c5d671;
+  text-decoration: none
+}
+
+.button {
+  background-color: #7d8e51;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button1 {
+  background-color: white;
+  color: #7d8e51;
+  border: 2px solid #7d8e51;
+}
+
+.button1:hover {
+  background-color: #7d8e51;
+  color: white;
+}
+
+.buttonfoot {
+  background-color: #7d8e51;
+  color: white;
+  border: 2px solid #7d8e51;
+}
+
+.buttonfoot:hover {
+  background-color: white;
+  color: #7d8e51;
+  border: 2px solid #7d8e51;
+}
+
+.copyright {
+  color: black;
+  font-family: Roboto;
+  font-size: 9px
+}
+
+.link {
+  color: #7d8e51;
+  font-family: Rakkas;
+}
+
+.link:hover {
+  color: #c5d671
+}
+
+/*Form*/
+input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid #7d8e51;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  background-color: #f0f0db;
+  outline-color: #c5d671
+}
+
+input[type=text]:focus::placeholder {
+  color: transparent;
+}
